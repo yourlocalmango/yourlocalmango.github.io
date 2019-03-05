@@ -1,0 +1,485 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 30;
+	position: sticky;
+	top: 0;
+	z-index: +1;
+	padding-bottom: 30px;
+	padding-left: 0px;
+}
+
+/* Logo placeholder*/
+#logo {
+	clear: none;
+	margin-top: 20px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: none;
+	text-align: center;
+	color: white;
+	background-color: #D68996;
+	font-size: 40px;
+	font-weight: 900;
+	position: sticky;
+}
+#navigation {
+    font-family: 'Montserrat', sans-serif;
+	position:fixed;
+	left: 25px;
+	top: 250px;
+	clear: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#navigation a {
+	color: white;
+	display: inline;
+	text-decoration: none;
+}
+
+#navigationproduct {
+	position: relative;
+	top: 30px;
+}
+
+#buttonhome {
+	width: 60px;
+}
+
+#buttonproduct {
+	width: 60px;
+	position: relative;
+	left: 10px;
+}
+
+#buttonsearch {
+	width: 50px;
+	position: relative;
+	top: 70px;
+	left: 10px;
+}
+
+/*banner*/
+
+/*top ad*/
+#ad1 {
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	color: #D68996;
+	padding-left: 160px;
+	padding-top: 60px;
+	padding-bottom: 250px;
+}
+
+#ad1-title {
+	font-size: 60px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+#ad1-text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
+#ad11 {
+    float: left;
+	clear: both;
+}
+
+#ad12 {
+	position: absolute;
+	right: 230px;
+	top: 210px;
+	width: 800px;
+}
+
+#ad1-title {
+	font-size: 60px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+#ad1-text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
+
+#ad1-pic {
+	float: right;
+	width: 37%;
+	clear: none;
+}
+
+/*bottom ad*/
+#ad2 {
+	font-family: 'Montserrat', sans-serif;
+	clear: none;
+	background-color: white;
+	color: #D68996;
+	padding-left: 170px;
+	padding-top: 60px;
+	padding-bottom: 250px;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+#ad2-title {
+	font-size: 45px;
+	margin-right: -30px;
+	margin-bottom: 0;
+}
+#ad2-text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
+#ad21 {
+    float: right;
+	clear: none;
+	margin-right: 100px;
+}
+
+#ad22 {
+	width: 900px;
+	left: 190px;
+	position: absolute;
+}
+
+#ad2-title {
+	font-size: 55px;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+#ad2-text {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 0;
+}
+
+#ad2-pic {
+	position: relative;
+	top: -200px;
+	width: 35%;
+	clear: none;
+}
+
+#shopimg {
+	display: inline-block;
+    margin-left: 130px;
+	width: 150px;
+}
+
+#shopimg2 {
+	display: inline-block;
+    margin-left: 70px;
+	width: 150px;
+}
+
+#searchpage {
+	margin-bottom: 30px;
+	background-color: white;
+	clear: none;
+	overflow: auto;
+	width: 970px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 100px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: #D68996;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#searchpage input[type=text] {
+  padding: 6px;
+  padding-right: 20px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+ 
+/* Main content of the site */
+#product {
+	margin-bottom: 30px;
+	background-color: white;
+	clear: none;
+	overflow: auto;
+}
+/* main content of the site */
+#product .mainProduct {
+	width: 70%;
+	text-align: center;
+	padding: 70px;
+}
+
+/* Whole page content */
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+	clear: none;
+}
+/* Product rows for catalog */
+#product .mainProduct .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+	clear: none;
+}
+/* Each product Information in the catalog */
+.mainProduct .productRow .productInfo {
+	float: left;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 22%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: #D68996;
+	font-size: 22px;
+	position: relative;
+	top: -15px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -32px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: #D68996;
+	white-space: pre-wrap;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: #D68996;
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+.productRow .productInfo .buyButton:hover {
+	background-color: #7CCCBE;
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: #D68996;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.5;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-right: 22px;
+	margin-bottom: 30px;
+}
+
+.footer1 {
+	font-size: 23px;
+	line-height: 0.7;
+	font-weight: bold;
+}
+.footer2 {
+	font-size: 17px;
+	line-height: 0.7;
+	font-weight: bold;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: white;
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: white;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+
+#footerimg {
+	position: relative;
+	width: 70%;
+	margin-bottom: -40px;
+	margin-right: 0;
+}
+
+#footercaption {
+	transform: rotate(90deg);
+	font-size: 15px;
+	position: relative;
+	left: 100px;
+	top: -20px;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 150px;
+	height: 150px;
+	position: center;
+	overflow: hidden;
+}
+
+#destroyershirt {
+	transform: rotate(90deg);
+}
+
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+}
+/*The sidebar and maincontent of page */
+#product {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/* offer banners content */
+#mainWrapper #ad1 p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #product .mainProduct {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 16px;
+}
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: left;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+	
+/* Each product in catalog view */
+.mainProduct .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #product .mainProduct {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.page {
+    margin-bottom: 20px;
+    text-align: center;
+}
+}
